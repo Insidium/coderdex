@@ -39,6 +39,11 @@ class AddContact extends Component {
 								placeholder='Enter phone number...'
 							/>
 						</div>
+						<input
+							type='submit'
+							value='Add Contact'
+							className='btn btn-light btn-block'
+						/>
 					</form>
 				</div>
 			</div>
