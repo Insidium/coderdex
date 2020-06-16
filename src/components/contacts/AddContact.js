@@ -62,6 +62,9 @@ class AddContact extends Component {
 			phone: '',
 			errors: {}
 		});
+
+		// kind of redirect to home route
+		this.props.history.push('/');
 	};
 
 	render() {
