@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/coderdex/static/css/main.36497136.chunk.css",
+    "main.js": "/coderdex/static/js/main.3cd8ebef.chunk.js",
+    "main.js.map": "/coderdex/static/js/main.3cd8ebef.chunk.js.map",
+    "runtime-main.js": "/coderdex/static/js/runtime-main.07cfd96b.js",
+    "runtime-main.js.map": "/coderdex/static/js/runtime-main.07cfd96b.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/coderdex/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.95f19acb.chunk.js": "/coderdex/static/js/2.95f19acb.chunk.js",
+    "static/js/2.95f19acb.chunk.js.map": "/coderdex/static/js/2.95f19acb.chunk.js.map",
+    "index.html": "/coderdex/index.html",
+    "precache-manifest.3c77050b26593b4761066541c746a84e.js": "/coderdex/precache-manifest.3c77050b26593b4761066541c746a84e.js",
+    "service-worker.js": "/coderdex/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/coderdex/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.36497136.chunk.css.map": "/coderdex/static/css/main.36497136.chunk.css.map",
+    "static/js/2.95f19acb.chunk.js.LICENSE.txt": "/coderdex/static/js/2.95f19acb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07cfd96b.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.95f19acb.chunk.js",
+    "static/css/main.36497136.chunk.css",
+    "static/js/main.3cd8ebef.chunk.js"
+  ]
+}
