@@ -1,3 +1,11 @@
+# Coderdex
+
+### Simple app to manage your Coder contacts!
+
+![Screenshot of Coderdex](./Coderdex.png)
+
+**Tech Stack:** React, React Router, axios, Bootstrap4, JSON Placeholder & the Context API
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
