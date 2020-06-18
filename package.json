@@ -2,7 +2,7 @@
 	"name": "coderdex",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://insidium.github.io/coderdex/",
+	"homepage": "https://insidium.github.io/coderdex",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
@@ -18,7 +18,7 @@
 		"uuid": "^8.1.0"
 	},
 	"scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
+		"deploy": "npm run build&&gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
