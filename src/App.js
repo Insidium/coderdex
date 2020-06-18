@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Contacts from './components/contacts/Contacts';
 import AddContact from './components/contacts/AddContact';
@@ -12,30 +12,32 @@ import { Provider } from './context';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
-	return (
-		<Provider>
-			<Router>
-				<div className='App'>
-					<Header branding='Coderdex' />
-					<div className='container'>
-						<Switch>
-							<Route exact path='/' component={Contacts}></Route>
-							<Route exact path='/contact/add' component={AddContact}></Route>
-							<Route
-								exact
-								path='/contact/edit/:id'
-								component={EditContact}
-							></Route>
-							<Route exact path='/about' component={About}></Route>
-							<Route exact path='/test' component={Test}></Route>
-							<Route component={NotFound}></Route>
-						</Switch>
+class App extends Component {
+	render() {
+		return (
+			<Provider>
+				<Router>
+					<div className='App'>
+						<Header branding='Coderdex' />
+						<div className='container'>
+							<Switch>
+								<Route exact path='/' component={Contacts}></Route>
+								<Route exact path='/contact/add' component={AddContact}></Route>
+								<Route
+									exact
+									path='/contact/edit/:id'
+									component={EditContact}
+								></Route>
+								<Route exact path='/about' component={About}></Route>
+								<Route exact path='/test' component={Test}></Route>
+								<Route component={NotFound}></Route>
+							</Switch>
+						</div>
 					</div>
-				</div>
-			</Router>
-		</Provider>
-	);
+				</Router>
+			</Provider>
+		);
+	}
 }
 
 export default App;

@@ -11,8 +11,6 @@ class AddContact extends Component {
 		errors: {}
 	};
 
-	onChange = (e) => this.setState({ [e.target.name]: e.target.value });
-
 	onSubmit = async (dispatch, e) => {
 		e.preventDefault();
 
@@ -70,6 +68,8 @@ class AddContact extends Component {
 		// kind of redirect to home route
 		this.props.history.push('/');
 	};
+
+	onChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
 	render() {
 		const { name, email, phone, errors } = this.state;
